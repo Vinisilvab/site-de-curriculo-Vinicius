@@ -1,0 +1,13 @@
+footer{
+    height: 100px;
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}

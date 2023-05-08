@@ -1,0 +1,84 @@
+aside{
+    margin: 20px;
+    flex: 30%;
+    padding: 20px;
+    height: 100%;
+    background-color: rgb(142, 142, 142);
+}
+aside > .foto{
+    height: 300px;
+    background-image: url(../imagens/images.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.info{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 30px 30px 30px 30px;
+    align-items: center;
+}
+.skills > .skillsGrafico{
+    width: 100%;
+    border:1px solid black ;
+    background-color: #ccc;
+    border-radius: 30px;
+    text-align: center;
+}
+.skillsGrafico > .preenchimento{
+    width: 90%;
+    background-color: green;
+    border-radius: 30px;
+}
+.titulo{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin: 15px 0;
+}
+.skillsGrafico > .preenchimento1{
+    width: 80%;
+    background-color: green;
+    border-radius: 30px;
+}
+.skillsGrafico > .preenchimento2{
+    width: 5%;
+    background-color: green;
+    border-radius: 30px;
+}
+.skillsGrafico > .preenchimento3{
+    width: 3%;
+    background-color: green;
+    border-radius: 30px;
+}
+.languages > .languagesGrafico{
+    width: 100%;
+    border:1px solid black ;
+    background-color: #ccc;
+    border-radius: 30px;
+    text-align: center;
+}
+.languagesGrafico > .preenchimento4{
+    width: 100%;
+    background-color: green;
+    border-radius: 30px;
+    height: 18px;
+}
+.languagesGrafico > .preenchimento5{
+    width: 50%;
+    background-color: green;
+    border-radius: 30px;
+    height: 18px;
+}
+.languagesGrafico > .preenchimento6{
+    width: 15%;
+    background-color: green;
+    border-radius: 30px;
+    height: 18px;
+}
+.titulo2{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin: 15px 0;
+}
+
+
+
